@@ -3,7 +3,7 @@ import tensorflow as tf
 from pinn.layers import CellListNL
 
 
-class repulsive(tf.keras.Model):
+class Repulsive(tf.keras.Model):
     """repulsive buckingham potential
 
     This is a simple implementation of repulsive potential

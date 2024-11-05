@@ -15,7 +15,7 @@ class Repulsive(tf.keras.Model):
         B, A: repulsive parameters
     """
     def __init__(self, rc=3.0, B=1.0, A=1.0):
-        super(LJ, self).__init__()
+        super(Repulsive, self).__init__()
         self.rc = rc
         self.B = B
         self.A = A
